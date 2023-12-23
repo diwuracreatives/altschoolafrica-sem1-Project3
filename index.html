@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Checkout Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="header">
+        <div class="header-content">
+            <nav class="navbar">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt="wp pusher logo" class="brand-logo">
+                </a>
+                <div class="nav-menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">Download</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Learn More</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Help</a>
+                        </li>
+                        <button class="action-btn" type="button">
+                            <a href="#" class="nav-link">Account</a>
+                        </button>
+                        </form>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="menu-bar"></span>
+                        <span class="menu-bar"></span>
+                        <span class="menu-bar"></span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <hr class="line">
+    </section>
+
+
+    <section class="content">
+        <div class="container">
+            <div class="column-2">
+                <h1 class="form-title">Checkout</h1>
+                <hr class="form-line">
+                <div class="signup-form">
+                    <form action="#" method="post">
+                        <div class="form-tab">
+                            <div class="form-num">
+                                <h2 class="num-text">1</h2>
+                            </div>
+                            <h2 class="form-heading">Your Basic Information</h2>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-inner">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" name="first_name" placeholder="Jane">
+                            </div>
+                            <div class="form-inner">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" name="last_name" placeholder="Doe">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-inner">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" style="width: 370px;"
+                                    placeholder="janedoe@example.com">
+                            </div>
+                        </div>
+
+                        <hr class="form-line">
+                        <div class="form-tab">
+                            <div class="form-num">
+                                <h2 class="num-text">2</h2>
+                            </div>
+                            <h2 class="form-heading">Your Payment Information</h2>
+                        </div>
+                       
+
+                        <div class="form-group">
+                            <div class="form-inner">
+                                <label for="card">Credit Card</label>
+                                <input type="text" id="card" name="card" style="width:502px;" placeholder="Card Number                                                                                                                   MM / YY     CVC">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit"><a href="#">Buy WP Pusher</a></button>
+                        </div>
+
+                        <div class="form-closing">
+                            <img src="./images/Mask.png" alt="question mark" style="margin-right: 10px;">
+                        <p class="terms">
+                            <a href="#">Need any help?</a> Don’t hesitate to contact support!</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="column-1">
+                <div>
+                    <p class="col-headin">Freelancer</p>
+                    <h1 class="price"><span class="dol-sign">$</span>99<span class="year"> / year</span></h1>
+                    <p class="price-info">Automatically renews <br>after 1 year</p>
+                    <div class="impo">
+                        <div class="impo-list">
+                            <img src="./images/shape.png" alt="" class="check-img">
+                            <p class="brand-story">Use on <span style="font-weight: 700;">5</span> client sites</p>
+                        </div>
+                        <div class="impo-list">
+                            <img src="./images/shape.png" alt="" class="check-img">
+                            <p class="brand-story">Private repositories</p>
+                        </div>
+                        <div class="impo-list">
+                            <img src="./images/shape.png" alt="" class="check-img">
+                            <p class="brand-story">Email support</p>
+                        </div>
+                    </div>
+                    <p class="brand-story-line">Need <span style="font-weight: 700;">20</span> client sites?</p>
+                    <p class="switch">Switch to the <span style="font-style: italic;">Agency </span>  plan.</p>
+                    <div class="bor-line"></div>
+
+
+                    <hr class="brand-line">
+
+                    <p class="test-text">FTP is horrible to deal with.<br><span style="font-size: 19px;font-weight: 700;">WP Pusher</span> solves that issue, and the customer support is awesome!</p>
+                    
+                    <div class="test-tag">
+                        <img src="./images/test-img.png" alt="kirk beard image" class="kik-img">
+                        <p class="test-name">Kirk Beard</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <p class="terms" style="margin-bottom: 30px;">
+           © 2018 WP Pusher IVS  ·  <a href="#" class="terms-link">Terms of Service </a>
+    </p>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
