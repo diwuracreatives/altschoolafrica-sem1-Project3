@@ -11,4 +11,4 @@ A Simple Payment Checkout website page created with HTML and CSS.
 To get started with this project, clone this repository to your local machine.
 
 ## Demo Link
-Link to project - https://github.com/your-username/your-repo-name.git
+Link to project - https://bolualtschool-assignment3.netlify.app/
